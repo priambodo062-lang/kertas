@@ -1,0 +1,222 @@
+html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding-top: 100px;
+    background-image: url(UI/bg.jpeg);
+    background-color: transparent;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    position: fixed;
+    background-image:url(UI/bg.jpeg);
+    z-index: 1000;
+}
+.container-navbar {
+    gap: 100px;
+    justify-self: center;
+    align-items: center;
+}
+.buttonhome{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url(UI/tombol/tombolhome.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.buttonhome:hover{
+    transform: scale(0.9);
+}
+.button2 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-image: url(UI/tombol/tombol1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.button2:hover {
+    transform: scale(0.9);
+}
+.button3 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-image: url(UI/tombol/tombol2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.button3:hover {
+    transform: scale(0.9);
+}
+.button4 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-image: url(UI/tombol/tombol3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.button4:hover {
+    transform: scale(0.9);
+}
+.button5 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-image: url(UI/tombol/tombol4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+.button5:hover {
+    transform: scale(0.9);
+}
+
+.card1 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image:url(UI/hero.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.card2 {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image:url(UI/card1.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.card3 {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image:url(UI/card2.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.card4 {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image:url(UI/card3.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card5 {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image:url(UI/card4.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pic1 {
+    margin-top: 10px;
+    width: 550px;
+    height: 250px;
+    background-image: url(Gambar/pic1.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.pic1:hover {
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px -2.5px black;
+    z-index: 1;
+}
+.pic2 {
+    margin-right: 10px;
+    width: 270px;
+    height: 480px;
+    background-image: url(Gambar/pic2.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.pic2:hover {
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px -2.5px black;
+    z-index: 1;
+}
+.pic3 {
+    margin-left: 10px;
+    width: 590px;
+    height: 400px;
+    background-image: url(Gambar/pic3.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.pic3:hover {
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px -2.5px black;
+    z-index: 1;
+}
+.pic4 {
+    margin-right: 150px;
+    width: 268px;
+    height: 450px;
+    background-image: url(Gambar/pic4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.pic4:hover {
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px -2.5px black;
+    z-index: 1;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(UI/foot.jpeg);
+    background-position: center;
+    background-size: cover;
+}
